@@ -1,0 +1,23 @@
+name: dint
+version: 0.1.0
+description: Dint application.
+homepage: https://github.com/dint-dev/dint
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dent: ^0.1.0
+  provider: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+flutter:
+  uses-material-design: true
+
